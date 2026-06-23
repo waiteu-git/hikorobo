@@ -10,3 +10,6 @@ fp-info-cache
 # OS
 .DS_Store
 Thumbs.db
+
+# KiCad lock
+*.lck
