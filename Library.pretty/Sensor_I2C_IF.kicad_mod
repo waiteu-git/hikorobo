@@ -1,4 +1,4 @@
-(footprint "Sensor_IF"
+(footprint "Sensor_I2C_IF"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "9ed38fa3-c8e6-4f36-8526-762d206421f9")
+		(uuid "cb1b9eec-fdbf-4c04-8ea9-7cda274ac742")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Sensor_IF"
+	(property "Value" "Sensor_I2C_IF"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5fff7152-7fdb-4b02-9250-a2074e9b4bcd")
+		(uuid "759ec6b8-b03c-45f2-9a1b-41efb0942f4e")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0d7bfa5e-57b2-471e-87ac-b49ec66489ea")
+		(uuid "fed84325-bd47-49be-8df1-7dd4ce6b2336")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "73f122a7-9313-4f0e-9101-399e0b769fad")
+		(uuid "abcc897b-7d15-48ea-a6a9-4981d62bf553")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d58ecb45-1a1d-436e-a0b0-ef3bab1caf9d")
+		(uuid "4a9a0216-3ec8-4bdc-a5be-9e4085fca564")
 		(effects
 			(font
 				(size 1 1)
@@ -68,29 +68,37 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at 2.54 0)
+		(at 3.81 0)
 		(size 1.09 1.09)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
-		(uuid "62532857-f00a-44f2-b1f9-b6625b977db7")
+		(uuid "e1d1f4b2-a3e2-4ad6-85a8-fead6d59174e")
 	)
 	(pad "2" thru_hole circle
-		(at 0 0)
+		(at 1.27 0)
 		(size 1.09 1.09)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "22c04ef3-0478-4841-8867-ccb0a2a13f65")
+		(uuid "9315a4a0-d947-4671-ab4e-30aeb8334127")
 	)
 	(pad "3" thru_hole circle
-		(at -2.54 0)
+		(at -1.27 0)
 		(size 1.09 1.09)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6ebe598a-8930-4151-b9bd-366d121c52ed")
+		(uuid "1e21a028-f5ba-4d90-ba08-5581ccd11447")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 0)
+		(size 1.09 1.09)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "944be50a-f5b0-4b0c-99ca-efa8e7218f5c")
 	)
 	(embedded_fonts no)
 )
