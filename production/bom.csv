@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,Raspberry_Pi_Pico,1,RaspberryPi_Pico,
+U1,R3106FG,1,R3106GF,
+"U2, U3",DIP794W45P254L1969H508Q16,2,4053,
+U5,R3106FG,1,R3106FG_IF,

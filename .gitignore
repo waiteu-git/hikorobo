@@ -1,0 +1,12 @@
+# KiCad
+*.kicad_prl
+*-backup
+*.bak
+fp-info-cache
+
+# history（超重要）
+.history/
+
+# OS
+.DS_Store
+Thumbs.db
