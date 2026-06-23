@@ -90,7 +90,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -131,7 +130,7 @@
 	(footprint "Library:DIP794W45P254L1969H508Q16"
 		(layer "F.Cu")
 		(uuid "8325b716-776c-4dd9-b679-9418231e3e11")
-		(at 86.36 101.6 90)
+		(at 87.63 101.6 90)
 		(property "Reference" "U2"
 			(at -1.425 -10.835 90)
 			(layer "F.SilkS")
@@ -509,7 +508,7 @@
 	(footprint "Library:R3106FG"
 		(layer "F.Cu")
 		(uuid "8bda9da2-336f-48c0-9bed-fbcdf224a6f8")
-		(at 71.12 92.71 -90)
+		(at 72.176 92.71 -90)
 		(property "Reference" "U1"
 			(at 0 -4.572 270)
 			(unlocked yes)
@@ -789,7 +788,7 @@
 	(footprint "Library:R3106FG"
 		(layer "F.Cu")
 		(uuid "952a2016-5835-4bf7-a55d-7961261841da")
-		(at 62.016 87.122 -90)
+		(at 63.072 87.122 -90)
 		(property "Reference" "U5"
 			(at 0 -4.572 270)
 			(unlocked yes)
@@ -3036,7 +3035,7 @@
 	(footprint "Library:Sensor_IF"
 		(layer "F.Cu")
 		(uuid "e8837a87-e157-4867-9375-82519906acc7")
-		(at 61.939 102.87)
+		(at 62.995 102.87)
 		(property "Reference" "U6"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3149,7 +3148,7 @@
 	(footprint "Library:DIP794W45P254L1969H508Q16"
 		(layer "F.Cu")
 		(uuid "edfb3695-d1b4-4b8e-9c7f-508c4713296d")
-		(at 86.36 86.36 90)
+		(at 87.63 86.36 90)
 		(property "Reference" "U3"
 			(at -1.425 -10.835 90)
 			(layer "F.SilkS")
@@ -3527,7 +3526,7 @@
 	(footprint "Library:Sensor_IF"
 		(layer "F.Cu")
 		(uuid "fe236cc7-8ecd-4980-a464-5b0a7abaf992")
-		(at 61.976 98.552)
+		(at 63.032 98.552)
 		(property "Reference" "U4"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3638,7 +3637,7 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 55.88 78.74)
+		(start 58.42 78.74)
 		(end 152.4 108.204)
 		(stroke
 			(width 0.05)
