@@ -130,7 +130,7 @@
 	(footprint "Library:DIP794W45P254L1969H508Q16"
 		(layer "F.Cu")
 		(uuid "8325b716-776c-4dd9-b679-9418231e3e11")
-		(at 87.63 101.6 90)
+		(at 87.63 100.33 90)
 		(property "Reference" "U2"
 			(at -1.425 -10.835 90)
 			(layer "F.SilkS")
@@ -3148,7 +3148,7 @@
 	(footprint "Library:DIP794W45P254L1969H508Q16"
 		(layer "F.Cu")
 		(uuid "edfb3695-d1b4-4b8e-9c7f-508c4713296d")
-		(at 87.63 86.36 90)
+		(at 87.63 87.376 90)
 		(property "Reference" "U3"
 			(at -1.425 -10.835 90)
 			(layer "F.SilkS")
