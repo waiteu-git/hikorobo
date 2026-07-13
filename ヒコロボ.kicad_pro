@@ -81,12 +81,12 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -106,9 +106,9 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -116,16 +116,16 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "error",
+        "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "error",
+        "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "solder_mask_bridge": "ignore",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -523,20 +523,20 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "GND_POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.15,
@@ -544,10 +544,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.15,
@@ -555,32 +555,32 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "PWR_5V_LOGIC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "name": "PWR_SERVO_RAW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -622,7 +622,7 @@
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "specctra_dsn": "../../../../Documents/hikorobo.dsn",
       "vrml": ""

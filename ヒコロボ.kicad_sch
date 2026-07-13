@@ -3298,6 +3298,188 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x2_Male"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 1.27 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -3777,6 +3959,12 @@
 		(uuid "3da78f53-6a95-4090-a6e6-f5ce86aa3770")
 	)
 	(junction
+		(at 29.21 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de0dfaa-e2ad-452a-aa53-3a019a122642")
+	)
+	(junction
 		(at 49.53 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4030,6 +4218,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 99.06) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1450640a-5b61-49d5-af62-eaaf85ff48b7")
+	)
+	(wire
+		(pts
 			(xy 49.53 44.45) (xy 49.53 46.99)
 		)
 		(stroke
@@ -4230,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 110.49) (xy 29.21 33.02)
+			(xy 29.21 110.49) (xy 29.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4660,16 +4858,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 40.64) (xy 144.78 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bb72ae1-6109-4a1b-8cff-eb7eb87a9394")
-	)
-	(wire
-		(pts
 			(xy 88.9 185.42) (xy 101.6 185.42)
 		)
 		(stroke
@@ -4810,6 +4998,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6f4c1c-70bf-40be-88c4-070e86ba6793")
+	)
+	(wire
+		(pts
 			(xy 88.9 149.86) (xy 88.9 36.83)
 		)
 		(stroke
@@ -4847,6 +5045,16 @@
 			(type default)
 		)
 		(uuid "a9ac9a68-01da-4529-b37a-37864dafc8bc")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae11725b-2c59-4ec3-a502-67a4c8fab62b")
 	)
 	(wire
 		(pts
@@ -5030,6 +5238,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 83.82) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73d81e4-a969-46a3-9963-648229332720")
+	)
+	(wire
+		(pts
 			(xy 81.28 167.64) (xy 83.82 167.64)
 		)
 		(stroke
@@ -5087,6 +5305,16 @@
 			(type default)
 		)
 		(uuid "d36de5a7-bd7d-4d77-8d3e-916570fd7e63")
+	)
+	(wire
+		(pts
+			(xy 29.21 81.28) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54343a6-5262-43d1-9346-91e4dbb23387")
 	)
 	(wire
 		(pts
@@ -5217,6 +5445,16 @@
 			(type default)
 		)
 		(uuid "e66d6fff-0920-40ea-9de9-f2b87c4deae1")
+	)
+	(wire
+		(pts
+			(xy 29.21 81.28) (xy 29.21 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fb88bd-860f-4b4a-8a0d-2d7ae207eff4")
 	)
 	(wire
 		(pts
@@ -5391,85 +5629,6 @@
 			(project "ヒコロボ"
 				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 158.75 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "095239da-de0f-4090-b883-5a957e25bb78")
-		(property "Reference" "#PWR07"
-			(at 154.94 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 162.56 40.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "42db209c-3d25-4472-a9f5-2bba99a5ffe1")
-		)
-		(instances
-			(project "ヒコロボ"
-				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5835,6 +5994,88 @@
 			(project "ヒコロボ"
 				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 96.52 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c112d38-728e-4f44-a50f-cb8fc43f0051")
+		(property "Reference" "J1"
+			(at 99.06 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 99.06 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 97.79 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 96.52 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4917623f-6b8c-424c-a3a9-84d75956a509")
+		)
+		(pin "2"
+			(uuid "b8d01cfa-c2f7-4a63-bfe8-56a8067fbd83")
+		)
+		(instances
+			(project "ヒコロボ"
+				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7328,6 +7569,85 @@
 			(project "ヒコロボ"
 				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 180.34 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5b1eccd-1786-4429-a8f4-2e92b8beb8b8")
+		(property "Reference" "#PWR07"
+			(at 176.53 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.15 129.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "610ad1af-db53-4e55-85b5-e91adc9dfa14")
+		)
+		(instances
+			(project "ヒコロボ"
+				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
