@@ -3693,6 +3693,12 @@
 		)
 	)
 	(junction
+		(at 142.24 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0396db3a-0ec6-4f4c-9477-10971f0c082d")
+	)
+	(junction
 		(at 81.28 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3927,6 +3933,12 @@
 		(uuid "da8f4755-f652-47b1-9471-5b3e71bb2081")
 	)
 	(junction
+		(at 137.16 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd2a19be-64bd-480a-8609-8ee9243e3cfd")
+	)
+	(junction
 		(at 81.28 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4068,6 +4080,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20be9b11-a97a-45cb-8d17-011a806f9ec8")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21326dbc-4893-4812-9c57-61579512dee8")
+	)
+	(wire
+		(pts
 			(xy 52.07 135.89) (xy 52.07 138.43)
 		)
 		(stroke
@@ -4135,6 +4167,16 @@
 			(type default)
 		)
 		(uuid "328c0b66-fab4-4f22-8909-2cbd425bf9e5")
+	)
+	(wire
+		(pts
+			(xy 144.78 33.02) (xy 151.13 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3358a2f5-4b5f-4fa7-8683-ee62d5d2e5cc")
 	)
 	(wire
 		(pts
@@ -4288,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 87.63) (xy 130.81 87.63)
+			(xy 147.32 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4468,6 +4510,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727d59aa-f828-4b5b-ad05-a5333690934c")
+	)
+	(wire
+		(pts
 			(xy 73.66 52.07) (xy 93.98 52.07)
 		)
 		(stroke
@@ -4638,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 36.83) (xy 151.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed2422a-ed44-4486-a23e-b72f92759062")
+	)
+	(wire
+		(pts
 			(xy 96.52 49.53) (xy 96.52 58.42)
 		)
 		(stroke
@@ -4668,6 +4730,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 93.98) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941ee59c-67d2-4185-a195-4a4f6f74ec42")
+	)
+	(wire
+		(pts
 			(xy 44.45 135.89) (xy 44.45 140.97)
 		)
 		(stroke
@@ -4675,6 +4747,16 @@
 			(type default)
 		)
 		(uuid "96428ff6-2d7e-4c07-84e5-1b2fd38f62ba")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996a6492-51e4-49e8-b955-6750e4733c8a")
 	)
 	(wire
 		(pts
@@ -5038,6 +5120,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 55.88) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79bd066-5bde-4403-9bbb-69cdd95323b7")
+	)
+	(wire
+		(pts
 			(xy 49.53 41.91) (xy 49.53 44.45)
 		)
 		(stroke
@@ -5058,7 +5150,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 85.09) (xy 121.92 85.09)
+			(xy 144.78 85.09) (xy 137.16 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5158,13 +5250,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 152.4 55.88)
+			(xy 137.16 85.09) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2def1e7-26a3-4ab4-9c38-48fa4274982c")
+		(uuid "f7e15bab-b452-449a-87b9-eb8a0bf9d605")
 	)
 	(wire
 		(pts
@@ -5175,6 +5267,16 @@
 			(type default)
 		)
 		(uuid "f9b57045-4d32-4df4-adbb-f6e1ced926e3")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74) (xy 142.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7d8217-74d7-4424-a6e8-35d40872dacd")
 	)
 	(wire
 		(pts
@@ -5195,16 +5297,6 @@
 			(type default)
 		)
 		(uuid "fcd861bd-0f02-4e8c-8f74-790b02f564fd")
-	)
-	(wire
-		(pts
-			(xy 152.4 55.88) (xy 152.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb250c3-c7a8-4533-9379-8aa1752b92de")
 	)
 	(symbol
 		(lib_id "My_Library:BNE055_IF")
@@ -5378,6 +5470,85 @@
 			(project "ヒコロボ"
 				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 151.13 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1badb0cf-48c6-4fd2-9e02-3b616bb5ff2a")
+		(property "Reference" "#PWR015"
+			(at 147.32 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 154.94 33.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d263a957-ec44-457a-bc22-99df440ab67d")
+		)
+		(instances
+			(project "ヒコロボ"
+				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6451,6 +6622,85 @@
 			(project "ヒコロボ"
 				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90b20e13-7d5d-4016-8161-3a07a682995b")
+		(property "Reference" "#PWR014"
+			(at 157.48 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4a5909c-2b92-4231-be8f-7abbbdfbd4de")
+		)
+		(instances
+			(project "ヒコロボ"
+				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
