@@ -529,7 +529,7 @@
       },
       {
         "clearance": 0.15,
-        "name": "GND_POWER",
+        "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -540,7 +540,7 @@
       },
       {
         "clearance": 0.15,
-        "name": "PWM_RAW",
+        "name": "SIG_PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -562,18 +562,7 @@
       },
       {
         "clearance": 0.15,
-        "name": "PWR_5V_LOGIC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.25
-      },
-      {
-        "clearance": 0.15,
-        "name": "PWR_SERVO_RAW",
+        "name": "PWR_5V_SERVO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -590,15 +579,15 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "PWR_SERVO_RAW",
+        "netclass": "PWR_5V_SERVO",
         "pattern": "*+5V*"
       },
       {
-        "netclass": "GND_POWER",
+        "netclass": "GND",
         "pattern": "*GND*"
       },
       {
-        "netclass": "PWM_RAW",
+        "netclass": "SIG_PWM",
         "pattern": "*GPIO*"
       },
       {
@@ -606,7 +595,7 @@
         "pattern": "*3.3V*"
       },
       {
-        "netclass": "PWM_RAW",
+        "netclass": "SIG_PWM",
         "pattern": "*Sig*"
       }
     ]
