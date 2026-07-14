@@ -540,17 +540,6 @@
       },
       {
         "clearance": 0.15,
-        "name": "SIG_PWM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.15,
         "name": "PWR_3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -570,6 +559,17 @@
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
+      },
+      {
+        "clearance": 0.15,
+        "name": "SIG_PWM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       }
     ],
     "meta": {

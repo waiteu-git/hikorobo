@@ -4127,6 +4127,12 @@
 		(uuid "dd2a19be-64bd-480a-8609-8ee9243e3cfd")
 	)
 	(junction
+		(at 21.59 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c88e05-5b66-4548-a818-318f9e644a86")
+	)
+	(junction
 		(at 81.28 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4578,6 +4584,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 107.95) (xy 36.83 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a0c939-717e-40c4-b62e-db0e21fb129c")
+	)
+	(wire
+		(pts
 			(xy 142.24 101.6) (xy 142.24 95.25)
 		)
 		(stroke
@@ -4608,7 +4624,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 123.19) (xy 21.59 125.73)
+			(xy 21.59 107.95) (xy 21.59 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4858,6 +4874,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 123.19) (xy 21.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b62a62f-fa51-4383-9346-d415488959a9")
+	)
+	(wire
+		(pts
 			(xy 88.9 185.42) (xy 101.6 185.42)
 		)
 		(stroke
@@ -4865,16 +4891,6 @@
 			(type default)
 		)
 		(uuid "8db0ebfa-5dea-4e18-936c-7dc3c185b69f")
-	)
-	(wire
-		(pts
-			(xy 121.92 66.04) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ed09ece-b18f-47e7-8568-4e917fef3590")
 	)
 	(wire
 		(pts
@@ -5298,6 +5314,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 107.95) (xy 36.83 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fbb4b3-f701-43d0-a442-837d8ea603b3")
+	)
+	(wire
+		(pts
 			(xy 147.32 101.6) (xy 147.32 92.71)
 		)
 		(stroke
@@ -5425,16 +5451,6 @@
 			(type default)
 		)
 		(uuid "e32c8ecf-962f-40b7-84c3-a4711306efec")
-	)
-	(wire
-		(pts
-			(xy 127 72.39) (xy 127 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e584e1de-c131-4ed1-a06a-321a15671924")
 	)
 	(wire
 		(pts
@@ -7341,84 +7357,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c94bc9a3-683e-4e1a-be44-e511aa164cd8")
-		(property "Reference" "#PWR04"
-			(at 127 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "437349f0-9e29-4d98-9066-1a86e17c658a")
-		)
-		(instances
-			(project "ヒコロボ"
-				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 21.59 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -7648,84 +7586,6 @@
 			(project "ヒコロボ"
 				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8605b7e-74a7-4cd5-b33f-98cae7b27133")
-		(property "Reference" "#PWR02"
-			(at 121.92 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 121.92 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fe8c563-d226-4b5a-a7c4-d43976a3742a")
-		)
-		(instances
-			(project "ヒコロボ"
-				(path "/ff0925a6-2969-4ba9-b4fe-9000bc3f53f1"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
