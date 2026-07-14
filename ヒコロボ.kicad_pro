@@ -81,7 +81,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "ignore",
+        "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -160,7 +160,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.05,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -523,7 +523,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -535,7 +535,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2
       },
       {
@@ -546,7 +546,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.55,
         "via_drill": 0.25
       },
       {
@@ -568,7 +568,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.45,
+        "via_diameter": 0.5,
         "via_drill": 0.2
       }
     ],
